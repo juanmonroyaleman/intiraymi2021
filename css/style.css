@@ -354,7 +354,7 @@ MAIN
 ----------------------
 */
 .main__fondo{
-background-image: url(../img/fondo_principal.jpg);
+background-image: url(../img/fondo_principal1.jpg);
 			background-size: cover;
 			border-bottom: solid 1px #DDE5E7;
 }
@@ -371,7 +371,7 @@ background-image: url(../img/fondo_principal.jpg);
 @media screen and (min-width:900px) {
 
 	.main__fondo{
-		background-image: url(../img/fondo_principal.jpg);
+		background-image: url(../img/fondo_principal1.jpg);
 		background-repeat: none;
 		height: 90vh;
 			background-size: cover;
@@ -1026,10 +1026,12 @@ PAGINA HORARIO
 }
 
 
+.horario_fondonegro img{
+	width: 100%;
+}
 
 .horario_fondonegro{
 	background: #000;
-	padding-top: 100px;
 	color: #fff;
 	text-align: center;
 }
@@ -1951,3 +1953,54 @@ REGISTRO
 
 
 	}
+
+.tabla1{
+	margin: 10px;
+	width: 100%;
+}
+
+.tabla h1{
+	font-weight: 700;
+	font-size: 40px;
+text-align: center;
+margin: 20px;
+margin-top: 40px;
+}
+.tabla{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+	table{
+		background: #fff;
+		text-align: left;
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	td, th{
+		padding:20px;
+	}
+
+	thead{
+		background: #5C1D1A;
+		border-bottom: solid 5px #3D3C3B;
+		color: #F2CB13;
+		font-weight: 900;
+	}
+
+	tr:nth-child(even){
+		background: #ddd;
+	}
+
+.tablaflex{
+	display: block;
+}
+
+@media screen and (min-width:900px) {
+
+	.tablaflex{
+	display: flex;
+	justify-content: space-between;
+}
+}
