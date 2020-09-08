@@ -1,216 +1,520 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="device=device-width, initial-scale=1.0">
-	<title>Inti Raymi</title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Oswald|Righteous|Rubik|Russo+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/sal.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="author" content="Sumon Rahman">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Re-fresca.</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body id="home">
+
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    
+    <!-- MainMenu-Area -->
+    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="primary_menu">
+                <ul class="nav navbar-nav mainmenu">
+                    <li class="active"><a href="#home_page">Inicio</a></li>
+                    <li><a href="#about_page">Nosotros</a></li>
+                    <li><a href="#gallery_page">Proyectos</a></li>
+                    <li><a href="#price_page">Servicios</a></li>
+                    <li><a href="#testimonial_page">Testimonios</a></li>
+                    <li><a href="#contact_page">Contacto</a></li>
+                </ul>
+                <div class="right-button hidden-xs">
+                    <a href="#price_page">¡Mira nuestros planes!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- MainMenu-Area-End -->
+    <!-- Home-Area -->
+    <header class="home-area overlay" id="home_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-7 p_b">
+                    <div class="space-80 hidden-xs"></div>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">Refresca tu <br> identidad visual.</h1>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <h4>Refrescamos tu marca sin perder tu esencia.</h4>
+                    </div>
+                    <div class="space-20"></div>
+                    <a href="#price_page" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-eye"></i>Ver planes</a>
+                </div>
+                <div class="col-xs-12 hidden-sm col-md-5">
+                    <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/header-mobile.png" alt="">
+                    </figure>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <!-- Home-Area-End -->
+    <!-- About-Area -->
+    <section class="section-padding" id="about_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="page-title text-center">
+                        <img src="images/about-logo.png" alt="About Logo">
+                        <div class="space-20"></div>
+                        <h5 class="title">Sobre nosotros</h5>
+                        <div class="space-30"></div>
+                        <h3 class="blue-color">Re-fresca nace como un emprendimiento de cuatro estudiantes que llevaban clases remotas de la universidad durante la pandemia. </h3>
+                        <div class="space-20"></div>
+                        <p>Nos encantan el Branding, por eso buscamos redefinir marcas para que se conviertan en auténticas sin perder su esencia. <b>Somos un equipo dinámico, profesional, multidisciplinario pero sobretodo fresco.</b>  </p>
+                        <div class="space-20"></div>
+                        <p>Ofrecemos los servicios de: Publicidad, Diseño & Branding y Contenido dirigidos a aquellas marcas que quieren reinventarse. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-Area-End -->
+    <!-- Progress-Area -->
+    <section class="progress-area gray-bg" id="progress_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="page-title section-padding">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Misión Y Visión</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Misión</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>Crear marcas que destacan por su esencia y sus valores, esto plasmado a través de su imagen.</p>
+                        </div>
+                        <div class="space-50"></div>
+                        
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <figure class="mobile-image">
+                        <img src="images/progress-phone.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Progress-Area-End -->
+    <!-- Video-Area -->
+    <section class="video-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="video-photo">
+                        <img src="images/video-image.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=ScrDhTsX0EQ" class="popup video-button">
+                            <img src="images/play-button.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Misión Y Visión</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Visión</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>Convertirnos en una agencia top en Lima que destaque por ofrecer soluciones creativas que obtengan resultados medibles y tangibles.</p>
+                        </div>
+                        <div class="space-50"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video-Area-End -->
+    <!-- Feature-Area -->
+    <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="page-title text-center">
+                        <h5 class="title">Equipo</h5>
+                        <div class="space-10"></div>
+                        <h3>Miembros del equipo</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="centro wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/foto1.png" alt="">
+                    </div>
+                    <div class="space-0"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="centro wow fadeInUp" data-wow-delay="0.3s">
+                        <img src="images/foto2.png" alt="">
+                    </div>
+                    <div class="space-0"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="centro wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="images/foto3.png" alt="">
+                    </div>
+                    <div class="space-0"></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="centro wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="images/foto4.png" alt="">
+                    </div>
+                    <div class="space-0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature-Area-End -->
+    <!-- Testimonial-Area -->
+    <section class="testimonial-area" id="testimonial_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Testimonios</h5>
+                        <h3 class="dark-color">Nuestros clientes opinan</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="team-slide">
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.png" alt="">
+                            </div>
+                            <h4>Mario Rodriguez</h4>
+                            <h6 class="position">Director de Arte</h6>
+                            <p>Trabajaría con ellos una y mil veces más, puesto a que han cumplido con todo lo pedido.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Esteban Estrada</h4>
+                            <h6 class="position">Productor</h6>
+                            <p>Estupendo trabajo de estos jóvenes talentos y también son bastante dinámicos.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Margarita Chonatte</h4>
+                            <h6 class="position">Product Manager</h6>
+                            <p>¡La mejor experiencia que he tenido! Los chicos me ayudaron mucho a desarrollar mi marca personal.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.png" alt="">
+                            </div>
+                            <h4>Mario Rodriguez</h4>
+                            <h6 class="position">Director de Arte</h6>
+                            <p>Trabajaría con ellos una y mil veces más, puesto a que han cumplido con todo lo pedido.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Esteban Estrada</h4>
+                            <h6 class="position">Productor</h6>
+                            <p>Estupendo trabajo de estos jóvenes talentos y también son bastante dinámicos.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Margarita Chonatte</h4>
+                            <h6 class="position">Product Manager</h6>
+                            <p>¡La mejor experiencia que he tenido! Los chicos me ayudaron mucho a desarrollar mi marca personal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial-Area-End -->
+    <!-- Gallery-Area -->
+    <section class="gallery-area section-padding" id="gallery_page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Campañas</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Instagram & Facebook</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Realizaremos una campaña de lanzamiento, mostrando la marca y los servicios que ofrecemos a través de Facebook e instagram. Luego una campaña de mantenimiento constante a través de las mismas redes sociales con el potencial de mostrar lo más resaltante y el proyecto completo en la plataforma de behance, así como en LinkedIn.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <a href="#price_page" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Ver planes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery-Area-End -->
+    <!-- How-To-Use -->
+   
+    <!-- Download-Area-End -->
+    <!--Price-Area -->
+    <section class="section-padding price-area" id="price_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Planes</h5>
+                        <h3 class="dark-color">Nuestros Planes</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-rocket"></span>
+                            </div>
+                            <h4 class="upper">Básico</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Re-branding básico en 1 red social*</li>
+                                <li>Papelería corporativa</li>
+                                <li>- 20% en tu plan de contenido</li>
+                                <li><hr></li>
+                                <li><hr></li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">100</span> <small>/Mensual</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Acceder</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-diamond"></span>
+                            </div>
+                            <h4 class="upper">Profesional</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Re-branding en 2 redes sociales*</li>
+                                <li>Papelería corporativa</li>
+                                <li>1 Merch (PIN o polo)</li>
+                                <li>- 30% en tu plan de contenido</li>
+                                <li><hr></li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">300</span> <small>/Mensual</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Acceder</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-pie-chart"></span>
+                            </div>
+                            <h4 class="upper">Experto</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Re-branding en 3 redes sociales*</li>
+                                <li>Papelería corporativa</li>
+                                <li>3 Merch (PIN o polo)</li>
+                                <li>5 Piezas de promoción</li>
+                                <li>- 40% en tu plan de contenido</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">500</span> <small>/Mensual</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Price-Area-End -->
+    <!--Questions-Area -->
+    
+    <!--Questions-Area-End -->
+    <!-- Subscribe-Form -->
+    <div class="subscribe-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="subscribe-form text-center">
+                        <h3 class="blue-color">¡Subscríbete para recibir promociones!</h3>
+                        <div class="space-20"></div>
+                        <form id="mc-form">
+                            <input type="email" class="control" placeholder="Escribe tu correo" required="required" id="mc-email">
+                            <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Enviar</button>
+                            <label class="mt10" for="mc-email"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe-Form-Area -->
+    <!-- Footer-Area -->
+    <footer class="footer-area" id="contact_page">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title text-center">
+                            <h5 class="title">Contáctanos</h5>
+                            <h3 class="dark-color">Comunícate con nosotros</h3>
+                            <div class="space-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-map-marker"></span>
+                            </div>
+                            <p>Av. Lima 1234 <br /> Barranco, Lima - Perú</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-phone-handset"></span>
+                            </div>
+                            <p>+51 939013336 <br /> +51 939601337</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-envelope"></span>
+                            </div>
+                            <p>info@re-fresca.pe <br /> dudas@re-fresca.pe
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+           
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#home_page">Inicio</a></li>
+                                <li><a href="#about_page">Nosotros</a></li>
+                                <li><a href="#gallery_page">Proyectos</a></li>
+                                <li><a href="#price_page">Servicios</a></li>
+                                <li><a href="#testimonial_page">Testimonios</a></li>
+                                <li><a href="#contact_page">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-		<header class="header">
-			<div class="header__div">
-
-				<h1 class="header__title">
-					<a href="index.html">
-						<img src="img/logo.png" alt="Final">
-					</a>
-				</h1>
-			<button class="header__burger">
-				Menú
-			</button>
-				<nav class="header__nav">
-					<ul class="menu">
-						<li class="menu__item"><a href="#historia" class="menu__link">Historia</a></li>
-						<li class="menu__item"><a href="#horarios" class="menu__link">Horarios</a></li>
-						<li class="menu__item"><a href="#entradas" class="menu__link">Entradas</a></li>
-						<li class="menu__item"><a href="#galeria" class="menu__link">Galería</a></li>
-						<li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
-						<li class="menu__item"><a href="ingresar.html" class="menu__link_b">INGRESAR</a></li>
-						<li class="menu__item"><a href="registro.html" class="menu__link_b">REGISTRARSE</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		
-	<main class="main__fondo">
-
-
-
-		<div class="conteiner">
-			<div class="main">
-			<article class="cube conteiner">
-				<div class="cube__text">
-					
-					<a href="registro.html" class="cube__link">REGISTRARSE</a>
-				</div>
-
-			</article>
-		</div>
-		</div>
-			
-	</main>
-<section class="historia" id="historia">
-	<div class="conteiner">
-		<ul class="historia__title">
-			<li class="hist_sol">
-				<img src="img/sol.png" alt="">
-			</li>
-			<li class="hist_text">
-				<h2 class="tema">Historia</h2>
-				<p>El Inti Raymi (Fiesta del Sol) es una celebración ancestral de los pueblos andinos. El ritual empieza con el ocaso de la noche más larga del año, el 23 de junio, fecha considerada anterior al solsticio. Su significado consiste en pedirle al Sol que se vuelva a acercar a la Tierra, iniciando el verano.</p>
-				<a href="historia.html" class="hist__link">ENTÉRATE MÁS</a>
-			</li>
-		</ul>
-	</div>
-</section>
-	
-<section class="horarios" id="horarios">
-	<div class="conteiner">
-		<h2 class="tema">Horarios</h2>
-		<ul class="horarios__sect">
-			<li>
-				<ul class="horarios__sect_b">
-					<li>
-						<img src="img/23.png" alt="">
-					</li>
-					<p>23 de junio</p>
-					<a href="horarios.html" class="hist__link">VER ACTIVIDADES</a>
-				</ul>
-			</li>
-			<li>
-				<ul class="horarios__sect_b">
-					<li>
-						<img src="img/24.png" alt="">
-					</li>
-					<p>24 de junio</p>
-					<a href="horarios.html" class="hist__link">VER ACTIVIDADES</a>
-				</ul>
-			</li>
-			<li>
-				<ul class="horarios__sect_b">
-					<li>
-						<img src="img/25.png" alt="">
-					</li>
-					<p>25 de junio</p>
-					<a href="horarios.html" class="hist__link">VER ACTIVIDADES</a>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<ul class="entradas" id="entradas">
-		<li class="entr_1">
-			<img src="img/plato.png" alt="">
-		</li>
-		<li class="entr_2">
-			<h2>Venta de entradas</h2>
-			<p>¡Adquiere nuestras entradas para acudir al festival Inti Raymi <br> y no te quedes con las ganas!</p>
-			<a href="entradas.html" class="hist__link">VER MÁS</a>
-		</li>
-	</ul>
-</section>
-
-<section class="galeria" id="galeria">
-	<div class="conteiner">
-		<h2 class="tema">Galería</h2>
-		<img class="fotos_b" src="img/galeria.png" alt="">
-		<a href="galeria.html" class="menu__link_b galeria_link">VER GALERÍA COMPLETA</a>
-	</div>
-</section>
-
-<section class="testimonios" >
-	<div class="conteiner">
-		<h2 class="tema">Testimonios</h2>
-		<ul class="test_list">
-			<li class="test_list_b">
-				<img src="img/test1.png" alt="">
-				<h3>Alejandra Sanchez</h3>
-				<p>Inti Raymi es un festival muy interesante para ir a vivirla con toda mi familia. Siempre tratamos de ir todos los años porque nos encanta todo el espectáculo en función de la experiencia.</p>
-			</li>
-			<li class="test_list_b">
-				<img src="img/test2.png" alt="">
-				<h3>Mario Castillo</h3>
-				<p>El último año que asistí la pasé genial y conocí a varias personas muy buena onda con la que compartimos momentos muy bonitos que siempre quedarán en nuestros recuerdos.</p>
-			</li>
-			<li class="test_list_b">
-				<img src="img/test3.png" alt="">
-				<h3>Sergio Doro</h3>
-				<p>Acepté la invitación de mi esposa de asistir al festival y no me arrepiento de nada, definitivamente vale mucho la pena además que te llevas un bonito recuerdo de tu tierra querida.</p>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<ul class="sub">
-			<li class="sub_foot1">
-				<i class="far fa-comment-dots"></i>
-				<h2>ATENCIÓN ONLINE</h2>
-			</li>
-			<li class="sub_foot2">
-				<i class="fas fa-shield-alt"></i>
-				<h2>PAGO SEGURO</h2>
-			</li>
-		</ul>
-	</div>
-</section>
-
-	<footer class="footer">
-		<div class="conteiner fo">
-		<div class="footer_1">
-			<img src="img/logo2.png" alt="">
-			<p>SÍGUENOS EN:</p>
-				<ul class="sociales">
-					<li>
-						<a href="https://www.facebook.com" class="socials__link"><span class="icon-facebook"></span></a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com" class="socials__link"><span class="icon-instagram"></span></a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com" class="socials__link"><span class="icon-youtube"></span></a>
-					</li>
-				</ul>
-		</div>
-
-		<div class="footer_2">
-			
-				<div class="footer_b">
-				<p>CONTÁCTANOS</p>
-				<ul>
-					<li>Correo</li>
-					<li>Teléfono</li>
-				</ul>
-			</div>
-			<div class="footer_b">
-				<p>CATEGORÍAS</p>
-				<ul>
-					<li>Historia</li>
-					<li>Horarios</li>
-					<li>Ofertas</li>
-					<li>Galerías</li>
-				</ul>
-			</div>
-			<div class="footer_b">
-				<p>INFORMACIÓN</p>
-				<ul>
-					<li>Términos y Condiciones</li>
-					<li>Políticas y Privacidad</li>
-					<li>Preguntas Frecuentes</li>
-					<li>Contacto</li>
-				</ul>
-			</div>
-		</div>
-			</div>
-			
-
-	</footer>
-	<script src="js/app.js"> </script>
-	<script src="js/sal.js"> </script>
-	<script>
-		sal();
-	</script>
+        <!-- Footer-Bootom-End -->
+    </footer>
+    <!-- Footer-Area-End -->
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-ui.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
